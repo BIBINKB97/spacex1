@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding-top:  0;
+}
+nav{
+    position: relative;
+    top: -9px;
+    font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;;
+    position:fixed;
+    color: white;
+    padding-left: 50px;
+    width: 1400px;
+    height: 100px;
+    
+}
+.logo{
+   position: relative;
+   left: 50px;
+   top: 30px;
+    height: 60px;
+    width: 230px;
+  
+}
+.navtxt li{
+    
+    position: relative;
+    left: 255px;
+    bottom: 32px;
+   float: left;
+   padding: 9px;
+   height: 20px;
+   font-weight: bolder;
+   font-size: 13px;
+   display: flex;
+}
+
+li.navtxt1:hover,li.navtxt1:active{
+    text-decoration: underline;
+
+}
+img{
+    margin: -02px;
+    width: 1519px;
+    height: 760px;
+}
+
+.icon{
+    position: relative;
+    top: 4px;
+    left: 30px;
+    height: 50%;
+    width: 17px;
+}
+
+.inner-left-bottom{
+    width: 576px;
+    height: 176px;
+    position: absolute;
+    top: 60%;
+    color: white;
+    font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif ;
+   font-size: 22px;
+   left: 100px;
+   
+}
+.inner-left-bottom2{
+    margin-top: -18px;
+    font-size: 48px;
+}
+.inner-left-bottom1{
+    font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;
+    font-size:21px;
+}
+.button{
+
+    background: transparent;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    height: 55px;
+    width: 160px;
+}
+.footer{
+    width: 1475px;
+    height: 50px;
+    background-color: black;
+    margin: -2px;
+    text-align: center;
+    padding: 22px;
+}
+.footertxt{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 12px;
+    padding: 13px;
+}
+
+.footertxt:hover,.footertxt:active{
+    text-decoration:wavy;
+    color: rgb(100, 103, 103);
+
+}
